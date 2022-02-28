@@ -1,0 +1,60 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+.hero-section{
+    height: 300px;
+    overflow: hidden;
+}
+.hero-image{
+    width: 100%;
+}
+#profile-photo {
+    border-radius: 75px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: -75px;
+    border: 5px solid grey;
+  }
+  
+  .profile-photo-section {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .name-section .name {
+    font-size: 26px;
+  }
+  
+  .name-section .about-title {
+    font-size: 16px;
+  }
+  .mid-section {
+    display: flex
+  }
+  
+  
+  .tabs-link-list {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .tabs-link-list a {
+    text-decoration: none;
+    color: #84a59d;
+  }
+  
+  .tabs-link-list li.selected a:hover{
+    background-color: #f28482 
+  }
+  
+  .tabs-link-list li.selected a {
+    color: black;
+  }
+  
+  .tabs-link-list li {
+    border: 1px solid #84a59d;
+    width: 100%;
+    padding: 10px;
+  }
